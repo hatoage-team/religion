@@ -4,11 +4,13 @@
    Author: わたあめえ
    ====================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
 /* ===== ベース ===== */
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
 body {
-  font-family:"Inter",sans-serif;
+  font-family:"Shippori Mincho",sans-serif;
   background: var(--bg);
   color: var(--text);
   transition: background 0.3s,color 0.3s;
@@ -186,6 +188,12 @@ logo {
    display: block;
    margin: 0 auto;
    pointer-events: none;
+}
+
+.shippori-mincho-regular {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ===== レスポンシブ ===== */
