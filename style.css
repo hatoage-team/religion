@@ -8,7 +8,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
 body {
-  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-family:"Inter",sans-serif;
   background: var(--bg);
   color: var(--text);
   transition: background 0.3s,color 0.3s;
@@ -183,6 +183,8 @@ footer {
 }
 
 logo {
+   display: block;
+   margin: 0 auto;
    pointer-events: none;
 }
 
